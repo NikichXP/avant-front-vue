@@ -1,0 +1,462 @@
+input
+  outline: none
+  border: 1px solid #6C7A89
+input:focus, input:active 
+  outline: none
+  border: 1px solid #EB9532
+
+button:focus, button:active 
+  outline: none
+
+.edit-menu__block
+  margin-bottom: 10px
+  
+  label
+    display: block
+    font-size: 16px
+    margin-bottom: 0px 
+     
+  .edit-menu__text
+    font-size: 14px
+    padding: 5px
+    width: 100%
+    border-radius: 5px
+    
+  .edit-menu__select
+    font-size: 14px
+    padding: 5px
+    width: 100%  
+    margin-bottom: 10px
+    border-radius: 5px
+    
+    
+  .edit-block__header
+    margin-bottom: 5px
+    margin-top: 0px
+    background-color: white
+    padding: 5px
+    font-size: 18px
+    color: black
+    border-bottom: 1px solid #6C7A89 
+    
+.header-wrapper
+  position: relative
+    
+.hide-block
+  background: none
+  border: 0
+  border-radius: 0
+  position: absolute
+  top: 0
+  right: 10px
+  padding: 14px
+  margin-right: -30px
+  color: black
+  
+.hide-block:hover
+  text-decoration: none
+
+  
+.admin-line
+  height: 1px
+  width: 100%
+  border-bottom: 1px solid #6C7A89
+  margin-bottom: 20px
+  margin-top: 5px
+  
+//.admin-button
+//  background-color: #EB9532
+//  color: white
+//  border: 0
+//  border-radius: 0
+//  padding: 5px 10px
+//  font-size: 16px
+//  margin-bottom: 20px
+//  
+//.admin-button:hover
+//  background-color: #F4B350
+  
+.edit-menu__content
+ 
+  .edit-menu__block
+    margin-bottom: 15px
+    border: 1px solid #6C7A89
+    padding: 10px
+    position: relative
+    border-radius: 5px
+    
+    label
+      margin-top: 10px
+    
+    .edit-block__header
+      margin-left: -10px
+      margin-top: -10px
+      margin-right: -10px
+      border-top-left-radius: 5px
+      border-top-right-radius: 5px
+      
+    .delete-item
+      background-color: white 
+      border: 0
+      border-radius: 0
+      position: absolute
+      top: 0
+      right: 10px
+      padding: 4px
+    .delete-item:hover
+      color: #CF000F
+      
+    
+.edit-menu__dates
+ 
+  .edit-menu__block
+    margin-bottom: 15px
+    
+    position: relative
+    
+    label
+      margin-top: 10px
+    
+    .edit-block__header
+      margin-left: -10px
+      margin-top: -10px
+      margin-right: -10px
+      
+    .delete-item
+      background: none   
+      border: 0
+      border-radius: 0
+      position: absolute
+      top: 0
+      right: 10px
+      padding: 4px
+      color: black
+    .delete-item:hover
+      color: #CF000F
+      text-decoration: none
+      
+    .date-block
+      font-size: 18px
+      
+    .date-block__text
+      font-size: 18px
+      text-align: center
+      
+    .date-block__text.day, .date-block__text.month, .date-block__text.hours, .date-block__text.minutes
+      width: 40px
+      
+    .date-block__text.year
+      width: 80px
+      
+.offers
+  margin-top: 20px
+  
+  .offer-currency
+    margin-bottom: 15px
+  
+  .offer
+    border: 1px solid #6C7A89
+    border-radius: 5px
+    padding: 10px
+    position: relative 
+    margin-bottom: 15px
+  .offer-header
+    margin-left: -10px
+    margin-top: -10px
+    margin-right: -10px  
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
+    border-bottom: 1px solid #6C7A89
+    padding: 5px
+    
+  .delete-item
+    background: none    
+    
+.offer-variant
+  margin-bottom: 10px
+  padding: 10px
+  border: 1px solid #6C7A89
+  position: relative 
+  height: 235px
+  border-radius: 5px
+  
+  .offer-header
+    margin-left: -10px
+    margin-top: -10px
+    margin-right: -10px  
+    padding: 5px
+    
+    
+    
+.event-photos
+  .event-photos__header
+    margin-left: -15px
+  .photo  
+    height: 150px
+    
+    position: relative
+    padding: 0
+    border-radius: 5px
+    padding: 5px
+    img
+      height: 100%
+      width: 100%
+      object-fit: cover
+      border-radius: 5px
+      border: 1px solid #6C7A89
+      
+  .photo:hover
+    .delete-item
+      display: block
+    
+  .delete-item
+    background-color: RGBA(255,255,255,0.8)
+    border: none
+    position: absolute
+    right: 0
+    top: 0
+    height: 100%
+    width: 100%
+    display: none
+    font-size: 20px
+    font-weight: bold
+    border-radius: 5px
+    
+  input[type="file"] 
+    display: none
+    
+  .custom-file-upload
+    height: 150px
+    padding: 5px
+    cursor: pointer
+    font-size: 20px
+    font-weight: bold
+    .file-upload-inner
+      border: 1px solid #6C7A89  
+      border-radius: 5px
+      height: 100%
+      width: 100%
+    span
+      display: block
+      margin: auto
+      text-align: center
+      margin-top: 60px
+      
+  .admin-button
+    margin-left: -15px
+    margin-top: 15px
+    
+    
+.admin-wrapper
+  position: relative
+  
+.errors
+  position: fixed
+  top: 70px
+  right: 5px
+  
+  .error
+    padding: 5px
+    margin: 0
+    margin-bottom: 5px
+    font-size: 14px
+    border-radius: 5px
+    background-color: #F1A9A0
+    border: 1px solid red
+    
+.success-block
+  position: fixed
+  top: 70px
+  right: 5px
+  
+  .success
+    padding: 5px
+    margin: 0
+    margin-bottom: 5px
+    font-size: 14px
+    border-radius: 5px
+    background-color: #87D37C
+    border: 1px solid green
+    
+.post-content
+  position: relative
+  .delete-item
+    position: absolute
+    top: 0px
+    right: 0px
+    background-color: white
+    border: 0
+    border-radius: 0
+
+  .delete-item:hover
+    color: #CF000F
+    text-decoration: none
+    
+    
+.login-menu
+  .edit-menu__block
+    margin-bottom: 0
+    padding-bottom: 20px
+  .admin-button  
+    width: 100%
+    margin-bottom: 0
+    margin-top: 0
+    
+  .admin-header, label
+    text-align: center
+    margin-bottom: 0
+    
+    
+.admin-icon 
+  object-fit: contain !important
+.event-photos .icon
+  border-color: white 
+  padding: 10px
+  height: 70px
+  cursor: pointer
+  img
+    border: none
+.event-photos .icon.chosen
+  border: 1px solid #6C7A89
+  
+.input-flex
+  display: flex
+  justify-content: flex-start
+  .url-folder
+    input
+      width: 150px
+    margin-right: 2px
+    position: relative
+    
+.url-folder-remove
+  position: absolute
+  right: 5px
+  top: 9px
+  height: 16px
+  cursor: pointer
+  opacity: 0.6
+  
+.admin-toolbar
+  width: 100%
+  z-index: 12930
+  background-color: white
+  left: 0
+  top: 0
+  
+.admin-toolbar-sticky
+  position: fixed
+  padding-left: 20px
+  padding-right: 20px
+  border-bottom: 1px solid #6C7A89
+  border-bottom-left-radius: 5px
+  border-bottom-right-radius: 5px
+  
+.variant-container
+  padding-left: 5px
+  padding-right: 5px
+  
+.offer-variant-add
+  width: 100%
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 200px
+  
+.variant-hover:hover
+  opacity: 0.8
+  cursor: pointer
+   
+.edit-tabs__header
+  display: flex
+  justify-content: center
+  
+.edit-tabs__container
+  margin-top: 50px
+  
+.tab-header
+  padding: 10px
+  font-size: 18px
+  width: 150px
+  text-align: center
+  margin-right: 5px
+  color: #6C7A89
+  cursor: pointer
+  
+.tab-header.active
+  background-color: #d2d7d3
+  color: #2e3131
+  
+.edit-tabs
+  width: 100%
+  padding: 10px
+  
+.map-container
+  width: 100%
+  
+.map-form
+  display: flex
+  justify-content: flex-start
+  height: 32px
+  
+.map-hide
+  width: 150px
+  
+  
+.user-card
+  margin-bottom: 10px
+  padding: 10px
+  border: 1px solid #6C7A89
+  position: relative 
+  height: 85px
+  border-radius: 5px  
+  
+  .delete-item
+    background-color: RGBA(255,255,255,0.8)
+    border: none
+    position: absolute
+    right: 0
+    top: 0
+    height: 100%
+    width: 100%
+    display: none
+    font-size: 20px
+    font-weight: bold
+    border-radius: 5px
+    
+  span
+    display: block
+    
+.user-card:hover
+  .delete-item
+    display: block
+    
+.user-card-name
+  font-weight: bold
+  
+.user-edit-flex
+  display: flex
+  justify-content: space-between
+  margin-bottom: 20px
+  
+.edit-menu-right
+  max-width: 400px  
+  max-height: 400px
+  padding-left: 20px
+  img
+    object-fit: contain
+    width: 100%
+  
+.edit-menu-left
+  flex: 1
+  
+  
+  
+  
+  
+  
+  
+  
+
+    
+  

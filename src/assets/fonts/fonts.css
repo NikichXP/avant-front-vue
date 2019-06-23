@@ -1,0 +1,33 @@
+/* GOTHAM PRO */
+
+/* font-family: "GothamProBold"; */
+@font-face {
+    font-family: "GothamProBold";
+    src: url("GothamProBold.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "GothamProMedium"; */
+@font-face {
+    font-family: "GothamProMedium";
+    src: url("GothamProMedium.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* GOTHAM PRO END */
+
+
+/* Futura PT Book */
+
+
+/* font-family: "FuturaPTBook"; */
+@font-face {
+    font-family: "FuturaPTBook";
+    src: url("FuturaPT-Book.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Futura PT Book END */

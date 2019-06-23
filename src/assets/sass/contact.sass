@@ -1,0 +1,88 @@
+// CONTACT SECTION 
+
+.contact
+    position: relative
+
+.contact-header
+    font-size: 30px
+    font-family: 'GothamProBold'
+    line-height: 1.83
+    letter-spacing: 0.3px
+    text-align: center
+    color: #2c2a29   
+    margin-bottom: 100px
+    margin-top: 0
+    
+.contact-header__mobile
+    display: none
+    font-family: "FuturaPTBook"
+    font-size: 18px
+    letter-spacing: 0.2px
+    text-align: center
+    color: #4e4a49
+    margin-bottom: 50px
+    margin-top: 0
+    @media screen and (max-width: 991px) 
+        display: block 
+
+.contact
+    margin-bottom: 100px
+    text-align: center
+    a
+        font-family: 'GothamProBold'
+        font-size: 18px
+        letter-spacing: 0.2px
+        color: #4e4a49
+    a:hover, a:active
+        color: #f7cb07
+        text-decoration: none
+    a:focus
+        text-decoration: none
+        color: #4e4a49   
+         
+.contact-icon
+    width: 30px
+    height: 30px
+    object-fit: contain
+    margin: auto
+    margin-bottom: 35px
+    
+.contact-text
+    font-size: 18px
+    font-family: "FuturaPTBook"
+    line-height: 1.67
+    letter-spacing: 0.2px
+    color: #4e4a49
+    margin-bottom: 35px
+    padding-left: 7%
+    padding-right: 7%
+    
+.contact-phone
+    border-right: 1px solid rgba(44, 42, 41, 0.15)
+    @media screen and (max-width: 991px) 
+        margin-bottom: 35px
+        border: none
+    
+.contact-mobile__hide
+    @media screen and (max-width: 991px) 
+        display: none
+        
+.contact-mobile__line
+    display: none
+    position: absolute
+    width: 100%
+    margin: auto
+    bottom: 40px
+    span
+        display: none
+        margin: auto
+        width: 220px
+        border-bottom: 1px solid #2c2a29    
+    @media screen and (max-width: 991px) 
+        display: block
+        span
+            display: block
+    
+        
+         
+// CONTACT SECTION END

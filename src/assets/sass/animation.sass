@@ -1,0 +1,72 @@
+@keyframes expand 
+  from 
+    transform: scale(1)
+  to 
+    transform: scale(1.3)
+    
+@keyframes move-left 
+  from 
+    transform: translateX(0px)
+  to 
+    transform: translateX(-20%)
+    
+@keyframes move-right 
+  from 
+    transform: translateX(-20%)
+  to 
+    transform: translateX(0px)
+
+@keyframes fade-out 
+  from 
+    opacity: 1
+  to 
+    opacity: 0
+
+    
+.animation-expand
+  animation-name: expand
+  animation-duration: 8s
+  
+.animation-move-left
+  animation-name: move-left
+  animation-duration: 8s
+  width: 140%
+  height: 140%
+
+.animation-move-right
+  animation-name: move-right
+  animation-duration: 8s
+  width: 140%
+  height: 140%
+  
+.animation-fade-out
+  animation-name: fade-out
+  animation-duration: 2s
+  
+  
+.animation-expand-end
+  transform: scale(1.3)
+  
+.animation-move-left-end
+  transform: translateX(-20%)
+  width: 140%
+  height: 140%
+
+.animation-move-right-end
+  transform: translateX(0px)
+  width: 140%
+  height: 140%
+  
+  
+.animation-expand-start
+  transform: scale(1)
+  
+.animation-move-left-start
+  transform: translateX(0px)
+  width: 140%
+  height: 140%
+
+.animation-move-right-start
+  transform: translateX(-20%)
+  width: 140%
+  height: 140%

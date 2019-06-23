@@ -1,0 +1,346 @@
+// HEADER
+
+.header
+    height: 800px
+    width: 100%
+    background-color: #f5cf57
+    text-align: center
+    position: relative
+    overflow: hidden
+    @media screen and (max-width: 1200px)
+        background-color: #f5cf57
+    @media screen and (max-width: 769px)
+        height: 600px
+    @media screen and (max-width: 600px)
+        height: 450px
+// header gradient background-image: linear-gradient(131deg, #f9d737, #edcb34)           
+.header-image 
+    width: 550px
+    margin-top: 100px
+    z-index: 100
+    position: relative
+    @media screen and (max-width: 769px)
+        width: 400px
+    @media screen and (max-width: 600px)
+        width: 270px
+        margin-top: 90px 
+//    @media screen and (max-height: 900px)
+//        width: 400px
+//        margin-top: 60px
+        
+.header-bg
+    display: none
+    position: absolute
+    bottom: 0
+    width: 100%
+    z-index: 10   
+    background-color: #f5cf57
+    height: 550px
+    @media screen and (max-width: 1200px)
+        display: block
+    @media screen and (max-width: 769px)
+        height: 400px
+    @media screen and (max-width: 600px)
+        height: 280px
+
+// HEADER END
+
+
+// HOT SECTION
+
+.hot
+    text-align: center
+    padding-top: 100px
+    margin-bottom: 50px
+    @media screen and (max-width: 991px)
+        padding-top: 80px
+
+.hot-icon
+    height: 30px
+    width: 20px
+    margin: auto
+
+.hot-header
+    margin-top: 45px
+    font-family: 'GothamProBold'
+    font-size: 30px
+    text-transform: uppercase
+    margin-bottom: 80px
+    @media screen and (max-width: 991px)
+        margin-top: 35px
+        margin-bottom: 60px
+.hot-img
+    width: 250px
+    height: 250px
+    object-fit: cover
+    box-shadow: 0px 10px 40px 0 rgba(0, 0, 0, 0.08)
+    border: solid 8px #ffffff
+    margin: auto
+    border-radius: 110px
+    overflow: hidden
+    img
+        width: 100%
+        height: 100%
+        object-fit: cover  
+        transition: 0.2s
+        border-radius: 110px
+        
+.hot-date
+    font-family: "FuturaPTBook"
+    font-size: 14px
+    letter-spacing: 0.1px
+    text-align: center
+    color: #4e4a49
+    margin-top: 25px
+        
+.hot-name
+    font-family: 'GothamProBold'
+    font-size: 14px
+    letter-spacing: 0.1px
+    line-height: 1.71
+    text-align: center
+    color: #2c2a29
+    width: 225px
+    margin: auto
+    display: block
+    transition: 0.2s
+
+.hot-item
+    @media screen and (max-width: 1200px)
+        margin-bottom: 30px
+        
+.hot-item:hover
+    .hot-name
+        color: #f7cb07
+    .hot-img
+        img
+            width: 110%
+            height: 110%
+            margin-left: -5%
+            margin-top: -5%
+//            transform: scale(1.1)
+    
+// HOT SECTION END
+ 
+
+// LIST SECTION
+
+.list
+    margin-bottom: 100px
+.list.mobile-show
+    margin-bottom: 50px
+
+.list-header
+    h3
+        font-size: 30px
+        font-family: 'GothamProBold'
+        line-height: 1.83
+        letter-spacing: 0.3px
+        text-align: left
+        color: #2c2a29
+        text-transform: uppercase
+        margin-top: 50px
+        margin-bottom: 27px
+        @media screen and (max-width: 991px)
+            margin-top: 10px
+            margin-bottom: 0px
+ 
+.list-item
+    margin-top: 13px
+    margin-bottom: 13px
+    line-height: 42px
+    @media screen and (max-width: 991px)
+        margin-top: 25px
+        margin-bottom: 25px
+    
+.list-item a div
+    transition: 0.2s
+    
+.list-item a:hover
+    text-decoration: none
+    .list-item__name
+        color: #f7cb07  
+    path, polygon
+        fill: #f7cb07 
+        
+    
+.list-item__date
+    div
+        display: inline-block
+        font-family: "FuturaPTBook"
+        @media screen and (max-width: 1200px)
+            display: block    
+            
+    .weekday, .month
+        font-size: 18px
+        line-height: 1.44
+        letter-spacing: 0.2px
+        text-align: left
+        color: #4e4a49
+        width: 20px
+        @media screen and (max-width: 1200px)  
+            text-align: center 
+            margin: auto
+            width: 100%
+    .date
+        border: solid 1px #e5e5e5
+        border-radius: 21px
+        font-size: 20px
+        letter-spacing: 0.2px
+        text-align: center
+        color: #2c2929
+        height: 42px
+        width: 42px
+        margin-left: 20px
+        margin-right: 20px
+        @media screen and (max-width: 1200px)  
+            margin: auto
+        
+.list-item__icon
+    text-align: center
+    height: 45px
+    .svg
+        width: 30px
+        height: 30px
+        vertical-align: middle
+        margin: auto
+        line-height: 42px
+        margin-top: 5px
+    .svg > *
+        transition: 0.2s
+        fill: #4e4a49
+    @media screen and (max-width: 1200px) 
+        padding-top: 20px
+        
+.list-item__name
+    font-size: 18px
+    letter-spacing: 0.2px
+    text-align: left
+    line-height: 45px
+    height: 45px
+    color: #4e4a49
+    font-family: 'GothamProBold'
+    @media screen and (max-width: 1200px) 
+        padding-top: 20px
+    @media screen and (max-width: 991px)  
+        line-height: 1.33     
+         
+.list-show
+    font-family: "GothamProMedium"
+    font-size: 14px
+    line-height: 2.14
+    letter-spacing: 0.1px
+    text-align: center
+    color: #2c2a29
+    padding-left: 35px
+    padding-right: 35px
+    height: 50px
+    border-radius: 5px
+    background-color: #fad739
+    display: block
+    margin: auto
+    margin-top: 35px
+    border: none
+    box-shadow: none
+    outline: none 
+    transition: 0.2s
+    
+.list-show:hover
+    background-color: #fbdf60
+    color: #2c2a29 
+    
+  
+.list.mobile-show
+    .mobile-list-item-wrapper
+        box-shadow: 0px 10px 40px 0 rgba(0, 0, 0, 0.08)
+        border-radius: 6px
+        border: solid 1px #e5e5e5
+    .mobile-list-photo
+        width: 100%
+        height: 120px
+        object-fit: cover
+        border-top-left-radius: 6px
+        border-top-right-radius: 6px
+    
+    .mobile-list-date
+        font-family: "FuturaPTBook"
+        font-size: 14px
+        letter-spacing: 0.1px
+        color: #4e4a49
+        margin: 0
+        text-transform: capitalize
+        ul
+            padding-left: 0px
+            margin: 0
+            li
+                display: inline-block
+
+    .mobile-list-name
+        font-family: 'GothamProBold'
+        font-size: 14px
+        letter-spacing: 0.1px
+        line-height: 1.71
+        color: #2c2a29
+        margin: 0
+        margin-bottom: 10px
+      
+    .mobile-list-content
+        padding: 15px
+        margin-bottom: 10px
+        
+// LIST SECTION END
+
+    
+.mobile-hide
+    @media screen and (max-width: 991px) 
+        display: none
+.mobile-show 
+    display: none
+    @media screen and (max-width: 991px) 
+        display: block
+
+
+// MENU MOD
+
+.mobile-menu__toggle
+    top: 20px
+    right: 20px
+
+.menu-link__marker
+    border-color: transparent transparent #fad739 transparent
+    
+.menu-link__markericon path
+    fill: #fad739 !important
+    stroke: none !important
+    
+.active
+    .menu-link__markericon
+        display: block
+    
+    
+listbucketresult
+    display: none
+    
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
