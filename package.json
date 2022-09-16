@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "moment-timezone": "^0.5.23",
     "vue": "^2.5.2",
     "vue-cookies": "^1.5.6",
